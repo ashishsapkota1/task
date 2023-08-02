@@ -12,7 +12,7 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int _currentIndex = 0;
   final PageController _pageController = PageController();
-  final List<Widget> _pages = const[
+  final List<Widget> _pages = [
     MyHomePage()
   ];
 
