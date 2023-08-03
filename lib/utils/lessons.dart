@@ -7,13 +7,15 @@ class LessonForYou extends StatelessWidget {
   final String text1;
   final String text2;
   final String text3;
+  final Icon icon;
 
   const LessonForYou(
       {super.key,
         required this.image,
         required this.text1,
         required this.text2,
-        required this.text3});
+        required this.text3,
+        required this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -71,7 +73,7 @@ class LessonForYou extends StatelessWidget {
                       text3,
                       style: TextStyle(color: AppColor.iconColor, fontSize: 16),
                     ),
-                    const Icon(Icons.lock)
+                   icon
                   ],
                 )
               ],
