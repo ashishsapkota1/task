@@ -53,11 +53,13 @@ class LessonForYou extends StatelessWidget {
                   style: TextStyle(
                       color: AppColor.borderColor,
                       fontSize: 16,
-                      fontWeight: FontWeight.bold),
+                      fontWeight: FontWeight.bold,
+                  ),
                 ),
                 verticalSpacing(space: 12),
                 Text(
                   text2,
+                  maxLines: 2,
                   style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 18),
                 ),
